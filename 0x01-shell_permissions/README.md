@@ -14,3 +14,4 @@ This particular project is based on Linux permissions
 12-directory_permissions: A script that creates a directory called my_dir with permissions 751 in the working directory
 13-change_group: Change group owner of a file
 100-change_owner_and_group: Changes own to vincent and the group owner to staff
+101-symbolic_link_permissions: Change owner and group owner from vincent to staff for file _hello
