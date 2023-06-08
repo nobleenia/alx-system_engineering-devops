@@ -16,3 +16,4 @@ This particular project is based on Linux permissions
 15. 100-change_owner_and_group: Changes own to vincent and the group owner to staff
 16. 101-symbolic_link_permissions: Change owner and group owner from vincent to staff for file _hello
 17. 102-if_only: Changes the ownership of the file hello if only the owner is the same as the specified name
+18. 103-Star_Wars: How to watch the Star Wars on your terminal  using the ASCII without sound of course.
