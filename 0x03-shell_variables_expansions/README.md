@@ -12,4 +12,5 @@ Shell, init files, variables and expansions
 11. 10-love_exponent_breath: Displays the result of BREATH to the power LOVE
 12. 11-binary_to_decimal: Convert a number from base 2 to base 10
 13. 12-combinations: Create a script that prints all possible combinations of two letters, except "oo"
-14. 
+14. 13-print_float: Print a number with two decimal places
+15.
