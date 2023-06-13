@@ -16,4 +16,4 @@ Shell, init files, variables and expansions
 15. 100-decimal_to_hexadecimal: Convert a number from decimal to hexadecimal
 16. 101-rot13: A script that encodes and decodes text using the rot13 encryption
 17. 102-odd: Print every line from the input, starting with the first line
-18.
+18. 103-water_and_stir: Add two numbers stored in the environment variables WATER and STIR and print
