@@ -14,4 +14,5 @@ Shell, init files, variables and expansions
 13. 12-combinations: Create a script that prints all possible combinations of two letters, except "oo"
 14. 13-print_float: Print a number with two decimal places
 15. 100-decimal_to_hexadecimal: Convert a number from decimal to hexadecimal
-16. 
+16. 101-rot13: A script that encodes and decodes text using the rot13 encryption
+17. 
