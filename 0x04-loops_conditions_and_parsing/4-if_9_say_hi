@@ -3,10 +3,10 @@
 
 msg="Best School"
 cnt=1
-while [ $cnt -le 10 ];
+while [ $cnt -le 10 ]
 do
     echo "$msg"
-    if [ $cnt == 9 ];
+    if [ $cnt == 9 ]
     then
 	echo "Hi"
     fi
