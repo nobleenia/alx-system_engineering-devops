@@ -1,5 +1,6 @@
 #!/usr/bin/env bash
 # Bash script that displays numbers from 1 to 20 and
+
 cnt=1
 while [ $cnt -le 20 ];
 do
