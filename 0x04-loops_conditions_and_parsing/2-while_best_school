@@ -4,6 +4,6 @@ msg="Best School"
 i=1
 while [ $i -le 10 ];
 do
-echo "$msg"
-i=$((i + 1))
+    echo "$msg"
+    i=$((i + 1))
 done

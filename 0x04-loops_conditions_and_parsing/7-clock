@@ -4,19 +4,19 @@ echo "Hour: 0"
 hour=1
 while [ $hour -le 13 ];
 do
-min=1
-while [ $min -le 60 ];
-do
-if [ $min == 60 ];
-then
-if [ $hour != 13 ];
-then
-echo "Hour: $hour"
-fi
-else
-echo "$min"
-fi
-min=$((min + 1))
-done
-hour=$((hour + 1))
+    min=1
+    while [ $min -le 60 ];
+    do
+	if [ $min == 60 ];
+	then
+	    if [ $hour != 13 ];
+	    then
+		echo "Hour: $hour"
+	    fi
+	else
+	    echo "$min"
+	fi
+	min=$((min + 1))
+    done
+    hour=$((hour + 1))
 done

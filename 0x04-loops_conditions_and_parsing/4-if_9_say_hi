@@ -2,10 +2,12 @@
 # Bash script that displays Best School 10 times, but for the 9th iteration, displays Best School and then Hi on a new line
 msg="Best School"
 cnt=1
-while [ $cnt -le 10 ]; do
-echo "$msg"
-if [ $cnt == 9 ]; then
-echo "Hi"
-fi
-cnt=$((cnt + 1))
+while [ $cnt -le 10 ];
+do
+    echo "$msg"
+    if [ $cnt == 9 ];
+    then
+	echo "Hi"
+    fi
+    cnt=$((cnt + 1))
 done
