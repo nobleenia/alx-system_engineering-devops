@@ -1,4 +1,4 @@
-+ System Engineering and DevOps - Bash
+# System Engineering and DevOps - Bash
 
 0. 0x00. Shell, basics - 0x00-shell_basics
 1. 0x01. Shell, permissions - 0x01-shell_permissions
@@ -12,3 +12,4 @@
 9. 0x09. Web infrastructure design - 0x09-web_infrastructure_design
 10. 0x0A. Configuration management - 0x0A-configuration_management
 11. 0x0B. SSH - 0x0B-ssh
+12. 0x0C. Web server - 0x0C-web_server
