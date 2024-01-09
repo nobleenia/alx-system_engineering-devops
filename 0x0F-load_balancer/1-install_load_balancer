@@ -11,11 +11,11 @@ sudo apt-get -y install haproxy
 # edit config file
 server_config=\
 "
-frontend  nobleenia_frontend
+frontend nobleenia_frontend
         bind *:80
         mode http
         default_backend nobleenia_backend
-backend besthor_backend
+backend nobleenia_backend
         balance roundrobin
         server 69446-web-01 18.234.168.56:80 check
         server 69446-web-02 52.87.232.110:80 check
