@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
 # Alleged shorter version of 0-nginx_likes_port_80
-ln -sf /etc/nginx/sites-available/default etc/nginx/sites-enabled/default
+ln -sf /etc/nginx/sites-available/default /etc/nginx/sites-enabled/default
 sudo service nginx restart
 pkill -o nginx
