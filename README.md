@@ -16,4 +16,5 @@
 13. 0x0D. Web stack debugging #0 - [0x0D-web_stack_debugging_0](https://github.com/nobleenia/alx-system_engineering-devops/tree/master/0x0D-web_stack_debugging_0)
 14. 0x0E. Web stack debugging #1 - [0x0E-web_stack_debugging_1](https://github.com/nobleenia/alx-system_engineering-devops/tree/master/0x0D-web_stack_debugging_0)
 15. 0x0F. Load balancer - [0x0F-load_balancer](https://github.com/nobleenia/alx-system_engineering-devops/tree/master/0x0F-load_balancer)
-16. 0x10. HTTPS SSL - [0x10-https_ssl]()
+16. 0x10. HTTPS SSL - [0x10-https_ssl](https://github.com/nobleenia/alx-system_engineering-devops/tree/master/0x10-https_ssl)
+17. 0x11. What happens when you type google.com in your browser and press Enter - [0x11-what_happens_when_your_type_google_com_in_your_browser_and_press_enter]()
