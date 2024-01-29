@@ -31,7 +31,7 @@ if __name__ == "__main__":
             {
                 "task": all_Emp.get('title'),
                 "completed": all_Emp.get('completed'),
-                "username": usr,
+                "username": name,
                 })
         updateUser[idEmp] = totalTasks
 

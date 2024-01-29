@@ -26,8 +26,8 @@ if __name__ == "__main__":
 
     totalTasks = 0
 
-    for done_tasks injson_req:
-        if done_rasks['complted']:
+    for done_tasks in json_req:
+        if done_tasks['completed']:
             totalTasks += 1
 
     CSVfile = idEmp + ".csv"
