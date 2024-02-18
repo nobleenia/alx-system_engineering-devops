@@ -1,11 +1,13 @@
 # Web Service Outage - 503 Service Unavailable errors (March 15, 2023)
-![Is Postmortem a joke or a scare to you?](images/images-postmortem.gif "Is Postmortem a Joke To You")
+
+![Is Postmortem a joke or a scare to you?](images/turn it on and off.jpg "Is Postmortem a Joke To You")
 
 ## Issue Summary
 - **Duration**: On March 15th, from 10:00 AM to 12:45 PM UTC, our primary web service experienced a significant outage affecting approximately 65% of our user base.
 - **Impact**: During this period, users encountered 503 Service Unavailable errors when trying to access our platform, leading to a complete inability to use our service.
 - **Root Cause**: The root cause of the outage was identified as an unintentional misconfiguration in our load balancer settings, which led to an overload of requests to a single server instance.
 
+![Even Today?!](images/Check it.jpg "Even Today?!")
 ## Timeline
 
 - **10:00 AM UTC**: The issue was first detected when monitoring alerts for high response times and error rates were triggered.
