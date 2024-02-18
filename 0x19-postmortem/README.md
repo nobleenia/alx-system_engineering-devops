@@ -1,4 +1,5 @@
 # Web Service Outage - 503 Service Unavailable errors (March 15, 2023)
+![Is Postmortem a joke or a scare to you?](images/images-postmortem.gif "Diagram Title")
 
 ## Issue Summary
 - **Duration**: On March 15th, from 10:00 AM to 12:45 PM UTC, our primary web service experienced a significant outage affecting approximately 65% of our user base.
