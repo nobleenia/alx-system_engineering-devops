@@ -10,8 +10,7 @@ exec {'fix--for-nginx':
 
 # The second exec resource is responsible for restarting the Nginx service.
 # This is necessary to apply the changes made to the ULIMIT setting.
-#Restart nginx
-
+# Restart nginx
 exec {'nginx-restart':
      command =>  '/etc/init.d/nginx restart',
      path    =>  '/etc/init.d'
