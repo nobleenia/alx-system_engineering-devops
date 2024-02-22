@@ -1,8 +1,6 @@
 # Puppet Manifest to Adjust Nginx ULIMIT and Restart Nginx Service
-
 # The first exec resource is tasked with modifying the Nginx configuration
 # to adjust the ULIMIT setting, which controls the maximum number of open files.
-
 # Puppet file to replace a line...
 
 exec {'fix--for-nginx':
@@ -13,7 +11,6 @@ exec {'fix--for-nginx':
 
 # The second exec resource is responsible for restarting the Nginx service.
 # This is necessary to apply the changes made to the ULIMIT setting.
-
 #Restart nginx
 
 exec {'nginx-restart':
