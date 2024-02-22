@@ -4,14 +4,14 @@
 # Puppet file to replace a line...
 
 exec {'fix--for-nginx':
-     command  =>  '/bin/sed -i "s/15/4096/" /etc/default/nginx',
-     path     =>  '/usr/local/bin/:/bin/'
+  command  =>  '/bin/sed -i "s/15/4096/" /etc/default/nginx',
+  path     =>  '/usr/local/bin/:/bin/'
 }
 
 # The second exec resource is responsible for restarting the Nginx service.
 # This is necessary to apply the changes made to the ULIMIT setting.
 # Restart nginx
 exec {'nginx-restart':
-     command =>  '/etc/init.d/nginx restart',
-     path    =>  '/etc/init.d'
+  command =>  '/etc/init.d/nginx restart',
+  path    =>  '/etc/init.d'
 }
