@@ -4,8 +4,8 @@
 # Puppet file to replace a line...
 
 exec {'fix--for-nginx':
-  command  =>  '/bin/sed -i "s/15/4096/" /etc/default/nginx',
-  path     =>  '/usr/local/bin/:/bin/'
+  command =>  '/bin/sed -i "s/15/4096/" /etc/default/nginx',
+  path    =>  '/usr/local/bin/:/bin/'
 } ->
 
 # The second exec resource is responsible for restarting the Nginx service.
