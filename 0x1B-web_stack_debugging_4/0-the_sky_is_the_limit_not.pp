@@ -6,7 +6,7 @@
 exec {'fix--for-nginx':
   command  =>  '/bin/sed -i "s/15/4096/" /etc/default/nginx',
   path     =>  '/usr/local/bin/:/bin/'
-}
+} ->
 
 # The second exec resource is responsible for restarting the Nginx service.
 # This is necessary to apply the changes made to the ULIMIT setting.
